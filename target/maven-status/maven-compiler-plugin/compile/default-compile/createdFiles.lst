@@ -1,0 +1,4 @@
+py/com/expaae/example/hola_sprng2/HolaSprng2Application.class
+py/com/expaae/example/hola_sprng2/domain/Persona.class
+py/com/expaae/example/hola_sprng2/dao/PersonaDao.class
+py/com/expaae/example/hola_sprng2/web/ControladorInicio.class

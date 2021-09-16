@@ -1,0 +1,20 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 33061,
+            "driver": "MySQL",
+            "name": "cursoSpringBoot",
+            "group": "dev",
+            "username": "root",
+            "password": "secret",
+            "database": "test"
+        }
+    ],
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "maven.view": "flat"
+}
