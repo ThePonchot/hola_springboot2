@@ -38,4 +38,11 @@ public class ControladorInicio {
         personaService.guardar(persona);
         return "redirect:/";
     }
+
+    @GetMapping("/editar/{persona_id}")
+    public String editar (Persona persona, Model model){
+        persona =personaService.encontrarPersona(persona);
+        model.addAttribute("persona", persona);
+        return "/modificar";
+    }
 }
